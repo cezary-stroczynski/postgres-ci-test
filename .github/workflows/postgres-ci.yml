@@ -9,6 +9,7 @@ jobs:
         image: postgres
         env:
           POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: original_works_test
         options: >-
           --health-cmd pg_isready
           --health-interval 10s
